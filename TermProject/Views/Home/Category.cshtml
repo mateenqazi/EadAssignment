@@ -1,0 +1,92 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Category Page</title>
+
+    
+    <style>
+        #customers {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+            #customers td, #customers th {
+                border: 1px solid #ddd;
+                padding: 8px;
+            }
+
+            #customers tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            #customers tr:hover {
+                background-color: #000;
+                color: white;
+            }
+
+        .btn1 {
+            margin-left: 15px;
+            margin-right: 1px;
+            background-color: #f44336;
+            color: white;
+            padding: 11px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        btn1 {
+            background-color: gray;
+        }
+
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div style="text-align:center;border: 10px solid aqua;margin-right: 100px;margin-left: 100px;padding-bottom: 50px;padding-top: 30px; background: black;color: white;">
+        <form style="margin-top:20px;" action="/Home/ShowCategoryDetail">
+            <h2><span style="color: aqua">Search Category Items Here.</span></h2>
+            <input style="width:50%;height:40px; border-radius:0;border:2px solid aqua;" type="text" placeholder="Search Category" name="category" required>
+            <br />
+            <br />
+            <button style="width:20%;height:30px;border-radius:10px;border:2px solid aqua;background:aqua;color:black;" class="btn btn-success">Search</button>
+        </form>
+    </div>
+    <br />
+    <br />
+     
+    <table id="customers" style="text-align:center">
+        <tr> 
+            <th style="text-align:center;font-size:30px;">List Of All Category</th>
+        </tr>
+
+        @{ foreach (var a in Model)
+         {
+
+              <tr>
+                  <td> <h2>@a</h2></td>
+             </tr>
+         }
+
+        }
+       
+    </table>
+
+</body>
+</html>
+
+

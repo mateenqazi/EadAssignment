@@ -1,0 +1,84 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Edit Info Here.</h2>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Info Page</title>
+    <style>
+        input[type=text], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=number] {
+            width: 100%;
+            color: black;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        div {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h3>Add Items Here.</h3>
+
+   
+       
+
+    <div style="border:2px solid black">
+        <form action="/Home/Edit/@Model.Id" method="get">
+            <label for="Title">Title of Item</label>
+            <input type="text" name="title" placeholder="Your name" value="@Model.title" required>
+
+            <label for="Description">Description of Item</label>
+            <input type="text" name="description" placeholder="Your last name" value="@Model.description" required>
+
+            <label for="price">Price of Item</label>
+            <input type="number" name="price" min="0" max="1000000" placeholder="Enter Price" value="@Model.price" required>
+            <br />
+
+            <label for="Category">Category of Item</label>
+            <input type="text" name="category" placeholder="Category .." value="@Model.category" required>
+
+
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+   
+</body>
+</html>

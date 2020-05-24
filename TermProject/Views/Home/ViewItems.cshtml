@@ -1,0 +1,92 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>View Items Page</title>
+    <style>
+        #customers {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+            #customers td, #customers th {
+                border: 1px solid #ddd;
+                padding: 8px;
+            }
+
+            #customers tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            #customers tr:hover {
+                background-color: #000;
+                color:white;
+
+            }
+
+        .btn1{
+            margin-left:15px;
+            margin-right:1px;
+            background-color: #f44336;
+            color: white;
+            padding: 11px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        btn1 {
+            background-color: gray;
+        }
+        
+
+            #customers th {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                text-align: left;
+                background-color: #4CAF50;
+                color: white;
+            }
+    </style>
+</head>
+<body>
+
+    <table id="customers">
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+
+            <th>Price</th>
+            <th>Catagory</th>
+            <th colspan="2" style="text-align:center">Actions</th>
+        </tr>
+        @{ foreach (var a in Model)
+         {
+            <tr>
+                <td>@a.title</td>
+                <td>@a.description</td>
+                <td>@a.price</td>
+                <td>@a.category</td>
+                <td>
+                    <a class="btn1" href="/Home/EditInfo/@a.Id">Edit</a>
+                </td>
+                <td>
+                    <form action="/Home/Delete/@a.Id" method="post">
+                        <input class="btn1" type="submit" value="Remove">
+                    </form>
+                 </td>                
+            </tr>
+         }
+        }
+        </table>
+        
+</body>
+</html>

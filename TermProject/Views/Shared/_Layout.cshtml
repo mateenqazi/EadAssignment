@@ -1,0 +1,55 @@
+﻿<html>
+<head>
+    
+    <style>
+        body {
+            font-size: 17px;
+            
+        }
+
+        .heading1{
+            font-size: 60px;
+            color: red;
+           
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 20px 158px 20px;
+                text-decoration: none;
+            }
+
+                li a:hover {
+                    background-color: grey;
+                }
+    </style>
+</head>
+<body>
+
+    <ul>
+        <li><a class="active" href="/Home/Index">Home</a></li>
+        <li><a href="/Home/Category">Category Detail</a></li>
+        <li><a href="/Home/ViewItems">View Items</a></li>
+        <li><a href="/Home/AddItems">Add Items</a></li>
+        
+    </ul>
+
+    <h1 class="heading1">GROCERY STORE </h1>
+    @RenderBody()
+
+</body>
+</html>
