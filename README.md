@@ -43,6 +43,13 @@ Some screenshots of the pages.
 
 ### VIEW ITEMS
 
+![ass3](https://user-images.githubusercontent.com/57771880/82881705-790ca900-9f59-11ea-8fe1-77dcc36f090e.PNG)
+
+
+### ADD ITEMS
+
+
+
 
 
 
