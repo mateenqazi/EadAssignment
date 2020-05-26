@@ -38,6 +38,13 @@ Some screenshots of the pages.
 
 ### SEARCH CATEGORY ITEMS
 
+![ass2](https://user-images.githubusercontent.com/57771880/82881384-10bdc780-9f59-11ea-8e04-2a19f9396a43.PNG)
+
+
+### VIEW ITEMS
+
+
+
 
 
 
