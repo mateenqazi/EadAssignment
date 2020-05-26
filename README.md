@@ -83,11 +83,11 @@ Some screenshots of the pages.
 
 ## How to Run
 
-1- ####Install the following:
+1- #### Install the following:
 
-* ####Microsoft Visual Studio
-* ####Microsoft SQL Server Express
-* ####Microsoft SQL Server Management Studio (SSMS)
+* #### Microsoft Visual Studio
+* #### Microsoft SQL Server Express
+* #### Microsoft SQL Server Management Studio (SSMS)
 
 
 
