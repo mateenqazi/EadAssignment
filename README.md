@@ -83,11 +83,24 @@ Some screenshots of the pages.
 
 ## How to Run
 
-### 1. Install the following:
+1. Install the following:
 
-* #### Microsoft Visual Studio
-* #### Microsoft SQL Server Express
-* #### Microsoft SQL Server Management Studio (SSMS)
+*  Microsoft Visual Studio
+*  Microsoft SQL Server Express
+*  Microsoft SQL Server Management Studio (SSMS)
+
+2- Open SQL Server Management Studio and in the "Connect to Database Engine" window type the following:
+
+```c sharp
+Server Type  = Database Engine
+
+Server Name  = DESKTOP-P2TG0M9\MATEEN
+
+AUTHENTICATION = Windows Authentication
+
+````
+
+
 
 
 
