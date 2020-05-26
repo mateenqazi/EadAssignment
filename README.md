@@ -31,22 +31,34 @@ This is a sample website written in ASP.NET MVC 4 Web Application having a well 
 Some screenshots of the pages.
 
 ### HOME PAGE
+---
 
 
 ![ass1](https://user-images.githubusercontent.com/57771880/82880830-62b21d80-9f58-11ea-8dc3-750de77331dc.PNG)
 
+---
+
 
 ### SEARCH CATEGORY ITEMS
 
+---
+
 ![ass2](https://user-images.githubusercontent.com/57771880/82881384-10bdc780-9f59-11ea-8e04-2a19f9396a43.PNG)
+
+---
 
 
 ### VIEW ITEMS
 
+---
 ![ass3](https://user-images.githubusercontent.com/57771880/82881705-790ca900-9f59-11ea-8fe1-77dcc36f090e.PNG)
+
+---
 
 
 ### ADD ITEMS
+
+---
 
 
 
