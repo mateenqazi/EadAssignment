@@ -3,7 +3,7 @@ Ead Assignment 04(PUCIT).
 
 ---
 
-This is a sample website written in ASP.NET MVC 4 Web Application having a well designed Database Schema made as a  Assignment 04 for the course **"Enterprise Application Development"** during my 6th Semester at __PUNJAB UNIVERSITY COLLEGE OF INFORMATION AND TECHNOLOGY__. Its based on the 3 Tier Architecture.
+This is a sample website written in ASP.NET MVC 4 Web Application having a well designed Database Schema made as a  Assignment 04 for the course **"Enterprise Application Development"** during my 6th Semester at _PUNJAB UNIVERSITY COLLEGE OF INFORMATION AND TECHNOLOGY_. Its based on the 3 Tier Architecture.
 
 
 ---
@@ -31,7 +31,7 @@ This is a sample website written in ASP.NET MVC 4 Web Application having a well 
 Some screenshots of the pages.
 
 * ### HOME PAGE
----
+
 
 
 ![ass1](https://user-images.githubusercontent.com/57771880/82880830-62b21d80-9f58-11ea-8dc3-750de77331dc.PNG)
@@ -41,7 +41,7 @@ Some screenshots of the pages.
 
 * ### SEARCH CATEGORY ITEMS
 
----
+
 
 ![ass2](https://user-images.githubusercontent.com/57771880/82881384-10bdc780-9f59-11ea-8e04-2a19f9396a43.PNG)
 
@@ -50,7 +50,7 @@ Some screenshots of the pages.
 
 * ### VIEW ITEMS
 
----
+
 ![ass3](https://user-images.githubusercontent.com/57771880/82881705-790ca900-9f59-11ea-8fe1-77dcc36f090e.PNG)
 
 ---
@@ -58,7 +58,7 @@ Some screenshots of the pages.
 
 * ### ADD ITEMS
 
----
+
 ![ass4](https://user-images.githubusercontent.com/57771880/82883452-ddc90300-9f5b-11ea-81ab-f3039f902124.PNG)
 
 
