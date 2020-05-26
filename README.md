@@ -10,7 +10,7 @@ This is a sample website written in ASP.NET MVC 4 Web Application having a well 
 
 ## Technologies Used:
 
-- For Frontend: HTML, CSS, BootStrap, JavaScript
+- For Frontend: HTML, CSS, BootStrap
 
 - For Backend: C#, ASP.NET
 
@@ -83,7 +83,7 @@ Some screenshots of the pages.
 
 ## How to Run
 
-1- #### Install the following:
+### 1. Install the following:
 
 * #### Microsoft Visual Studio
 * #### Microsoft SQL Server Express
