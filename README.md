@@ -26,3 +26,18 @@ This is a sample website written in ASP.NET MVC 4 Web Application having a well 
 - Microsoft SQL Server Management Studio (SSMS)
 
 
+## Interface
+
+Some screenshots of the pages.
+
+### HOME PAGE
+
+
+![ass1](https://user-images.githubusercontent.com/57771880/82880830-62b21d80-9f58-11ea-8dc3-750de77331dc.PNG)
+
+
+### SEARCH CATEGORY ITEMS
+
+
+
+
