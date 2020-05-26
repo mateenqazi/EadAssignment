@@ -30,7 +30,7 @@ This is a sample website written in ASP.NET MVC 4 Web Application having a well 
 
 Some screenshots of the pages.
 
--- ### HOME PAGE
+* ### HOME PAGE
 ---
 
 
