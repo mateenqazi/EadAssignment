@@ -39,7 +39,7 @@ Some screenshots of the pages.
 ---
 
 
--- ### SEARCH CATEGORY ITEMS
+* ### SEARCH CATEGORY ITEMS
 
 ---
 
@@ -48,7 +48,7 @@ Some screenshots of the pages.
 ---
 
 
--- ### VIEW ITEMS
+* ### VIEW ITEMS
 
 ---
 ![ass3](https://user-images.githubusercontent.com/57771880/82881705-790ca900-9f59-11ea-8fe1-77dcc36f090e.PNG)
@@ -56,13 +56,30 @@ Some screenshots of the pages.
 ---
 
 
--- ### ADD ITEMS
+* ### ADD ITEMS
 
 ---
 ![ass4](https://user-images.githubusercontent.com/57771880/82883452-ddc90300-9f5b-11ea-81ab-f3039f902124.PNG)
 
 
 ---
+
+## Functionalities Implemented:
+
+* #### HOME PAGE
+
+* #### SEARCH CATEGORY ITEMS
+
+* #### VIEW ITEMS
+
+* #### ADD ITEMS
+
+* #### EDIT ITEMS
+
+* #### REMOVE ITEMS
+
+----
+
 
 
 
