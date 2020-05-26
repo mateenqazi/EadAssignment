@@ -119,9 +119,11 @@ AUTHENTICATION = Windows Authentication
 
 You can get in touch with me on my [linkedin Profile](https://www.linkedin.com/in/qazi-mateen-ahmad-9bb57519a)
 
-You can also follow my GitHub Profile to stay updated about my latest Projects GitHub. 
+You can also follow my GitHub Profile to stay updated about my latest Projects [GitHub](https://github.com/mateenqazi)
 
 If you liked the repo then kindly support it by giving it a star ⭐
+
+---
 
 
 
