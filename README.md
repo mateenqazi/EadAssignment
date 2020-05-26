@@ -81,6 +81,7 @@ Some screenshots of the pages.
 ----
 
 
+
 ## How to Run
 
 1. Install the following:
@@ -99,6 +100,28 @@ Server Name  = DESKTOP-P2TG0M9\MATEEN
 AUTHENTICATION = Windows Authentication
 
 ````
+
+
+![ass5](https://user-images.githubusercontent.com/57771880/82886640-40bc9900-9f60-11ea-8f25-6d878332de90.PNG)
+
+
+---
+
+3- Now open Schema.sql file in Database Files folder and execute it all. This will create the database and the tables. Afterwards execute the following sql files: record.sql
+
+
+
+4.  Everything is setup now! You can run the Visual Studio Project by opening _TermProject.sln_ and then select the Index.cshtml page.
+
+---
+
+## AUTHOR 
+
+You can get in touch with me on my [linkedin Profile](linkedin.com/in/qazi-mateen-ahmad-9bb57519a)
+
+You can also follow my GitHub Profile to stay updated about my latest Projects. [GitHub](https://github.com/mateenqa)
+
+If you liked the repo then kindly support it by giving it a star ⭐
 
 
 
